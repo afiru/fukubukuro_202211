@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import 'sass_base/mixin';
+@import 'sass_base/base';
+@import 'sass_base/animate';
+@import 'sass_base/_page_animete';
+@import 'sass_base/icon_arrow';
+@import 'sass_base/coding_guideline';
+
+.wapper {
+    @include wapper_setting();    
+}
+//基本設定
+ul,li,dd,dt,dh {
+    list-style: none;
+}
+svg {
+    display: block;
+}
+
+.pc_only {
+    @include pc_only();
+}
+.sp_only {
+    @include sp_only();
+}
+
+.t_center {
+    text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.text_justify {
+    text-align: justify;
+    text-justify: inter-ideograph;    
+}
+.bgE0CBAF {
+    background:#E0CBAF; 
+}
+
+//ヘッダー
+.headerMainH1 {
+    
+}
+.mainHeaderButtonWap {
+    
+}
+.mainHeaderButton {
+    width: 50%;
+    cursor: pointer;
+}
+.mainHeader{
+    position: sticky;
+    top:0;
+}
+//メイン
+.lpMain {
+    @include paddingPercent(640 , 28 , 0 , 51 , 0 );
+}
+.lpMain .off {
+    display: none;
+}
+.lpMain .on {
+    display: block;
+}
+.tabMainLxcH1 {
+    @include ontener_width(640 , 368.64 );
+    margin: 0 auto;
+}
+.tabMainLxcUl {
+    //@include marginPercent(640 , 27 , 0 , 0 , 0 );
+    margin: 7.21% 0% 0% 0%;
+}
+.tabMainLxcLi {
+    &:nth-child(n+2) {
+        //@include marginPercent(640 , 50 , 0 , 0 , 0 );
+        margin: 5% 0 0 0;
+    }
+}
+footer {
+    @include paddingPercent(640 , 100 , 0 , 100 , 0 );
+    background: #FFF;
+}
+.footerButton {
+    display: block;
+    @include ontener_width(640 , 540 );
+    margin: 0 auto;
+}
+.footerButtoncenterwap{
+    background: #FFF;
+    @include marginPercent(640 , 50 , auto , 54 , auto);
+    @include paddingPercent(640 , 100 , 0 , 100 , 0);
+}
+#JsOpenTabMens{
+    
+}
+
+.textFooter {
+    font-size: 12px;
+    text-align: center;
+    @include marginPercent(750 , 10 , auto , 0 , auto );
+}
