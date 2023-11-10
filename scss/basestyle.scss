@@ -66,17 +66,17 @@ img {
     display: block;
 }
 .tabMainLxcH1 {
-    @include ontener_width(640 , 352.26 );
+    @include ontener_width(640 , 558.62 );
     margin: 0 auto;
 }
 .tabMainLxcUl {
     //@include marginPercent(640 , 27 , 0 , 0 , 0 );
-    @include ontener_width(750 , 710);
-    @include marginPercent(750 , 36.6 , auto , 0 , auto );
+    @include ontener_width(750 , 750);
+    @include marginPercent(750 , 50 , auto , 0 , auto );
 }
 .tabMainLxcLi {
     &:nth-child(n+2) {
-        @include marginPercent(750 , 44 , 0 , 0 , 0 );
+        @include marginPercent(750 , 0 , 0 , 0 , 0 );
     }
 }
 footer {
@@ -105,29 +105,29 @@ footer {
 .bgMainLxc {
     background: url(../img/bgMainLxc.webp) no-repeat top center;
     background-size: cover;
-    @include paddingPercent(750 , 37 , 0 , 100 , 0);
+    @include paddingPercent(750 , 50 , 0 , 100 , 0);
 }
 .bgMainLxcBoy {
     background: url(../img/bgMainLxcBoy.webp) no-repeat top center;
     background-size: cover;
-    @include paddingPercent(750 , 66.7 , 0 , 119.8 , 0);
+    @include paddingPercent(750 , 50 , 0 , 100 , 0);
 }
 
 .txtMainLxc {
-    @include ontener_width(750 , 624.56);
-    @include marginPercent(750 , 41 , auto , 0 , auto );
+    @include ontener_width(750 , 677.94);
+    @include marginPercent(750 , 59 , auto , 0 , auto );
 }
 .btmMainLadyWap {
-    @include ontener_width(750 , 632.81);
-    @include marginPercent(750 , 41.7 , auto , 0 , auto );
+    @include ontener_width(750 , 632);
+    @include marginPercent(750 , 59.83 , auto , 0 , auto );
 }
 
 
 .txtMainLxcBoy {
-    @include ontener_width(750 , 624.56);
-    @include marginPercent(750 , 63 , auto , 0 , auto );
+    @include ontener_width(750 , 677.94);
+    @include marginPercent(750 , 50 , auto , 0 , auto );
 }
 .btmMainBoyWap {
-    @include ontener_width(750 , 632.81);
-    @include marginPercent(750 , 48.7 , auto , 0 , auto );
+    @include ontener_width(750 ,632);
+    @include marginPercent(750 , 50 , auto , 0 , auto );
 }
