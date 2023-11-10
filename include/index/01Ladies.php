@@ -4,13 +4,13 @@
     </h1>
     <ul class="tabMainLxcUl">
         <li class="tabMainLxcLi tabMainLxcLi01">
-            <img loading="lazy" src="img/tabMainLxcLi01.webp" alt="" width="640" height="1072" />
+            <img loading="lazy" src="img/tabMainLxcLi01.webp" alt="" width="750" height="1222" />
         </li>
         <li class="tabMainLxcLi tabMainLxcLi02">
-            <img loading="lazy" src="img/tabMainLxcLi02.webp" alt="" width="640" height="1072" />
+            <img loading="lazy" src="img/tabMainLxcLi02.webp" alt="" width="750" height="1210" />
         </li>
         <li class="tabMainLxcLi tabMainLxcLi03">
-            <img loading="lazy" src="img/tabMainLxcLi03.webp" alt="" width="640" height="1072" />
+            <img loading="lazy" src="img/tabMainLxcLi03.webp" alt="" width="750" height="1280" />
         </li>
     </ul>
     <p class="txtMainLxc">
