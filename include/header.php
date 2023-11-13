@@ -58,7 +58,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <link rel='stylesheet' id='theme_base_css' href='css/basestyle.css?ver=<?php echo date('Y-m-d-H-i-s'); ?>' media='all' />
-    <script async type="text/javascript" src='js/config.js'></script>
+    <script async type="text/javascript" src='js/config.js?ver=<?php echo date('Y-m-d-H-i-s'); ?>'></script>
 </head>
 
 <body id="page_top" class="wapper body_back_black">

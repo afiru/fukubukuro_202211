@@ -186,12 +186,12 @@ $fg-gutter: $gutter;
 }
 @mixin wapper_setting() {
     @include media($pc) {
-        width: $pc_wapper_size;
+        width: 750px;
         margin-left:auto;
 		margin-right:auto;
     }
     @include media($tab) {
-        width: 640px;
+        width: 750px;
         margin-left:auto;
 		margin-right:auto;
     }

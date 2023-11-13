@@ -1,5 +1,5 @@
-<section class="bgMainLxc tabMainLxc">
-    <h1 class="tabMainLxcH1">
+<section id="" class="bgMainLxc tabMainLxc">
+    <h1 class="tabMainLxcH1 tabMainLxcH1L">
         <img loading="lazy" src="img/tabMainLxcH1Ladies.svg" alt="福袋レディースラインナップ" width="352.26" height="198.4" />
     </h1>
     <ul class="tabMainLxcUl">

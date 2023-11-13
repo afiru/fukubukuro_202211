@@ -42,10 +42,10 @@ img {
 
 //ヘッダー
 .headerMainH1 {
-    
+
 }
 .mainHeaderButtonWap {
-    
+    background: #FFF;
 }
 .mainHeaderButton {
     width: 50%;
@@ -67,6 +67,14 @@ img {
 }
 .tabMainLxcH1 {
     @include ontener_width(640 , 558.62 );
+    margin: 0 auto;
+}
+.tabMainLxcH1L {
+    width: 74.6%;
+    margin: 0 auto;
+}
+.tabMainLxcH1M {
+    width: 74.6%;
     margin: 0 auto;
 }
 .tabMainLxcUl {
@@ -94,7 +102,7 @@ footer {
     @include paddingPercent(640 , 100 , 0 , 100 , 0);
 }
 #JsOpenTabMens{
-    
+
 }
 
 .textFooter {
@@ -114,15 +122,20 @@ footer {
 }
 
 .txtMainLxc {
-    @include ontener_width(750 , 677.94);
-    @include marginPercent(750 , 59 , auto , 0 , auto );
+    width: 92.58%;
+margin-top: 7.56%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .btmMainLadyWap {
     @include ontener_width(750 , 632);
-    @include marginPercent(750 , 59.83 , auto , 0 , auto );
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 .txtMainLxcBoy {
     @include ontener_width(750 , 677.94);
     @include marginPercent(750 , 50 , auto , 0 , auto );
@@ -131,3 +144,19 @@ footer {
     @include ontener_width(750 ,632);
     @include marginPercent(750 , 50 , auto , 0 , auto );
 }
+.txtMainLxcBoyM {
+    width: 92.89%;
+    margin-top: 7.26%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btmMainLadyWapM {
+    @include ontener_width(750 , 632);
+    margin-top: 7.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
